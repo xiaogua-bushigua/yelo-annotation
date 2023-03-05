@@ -1,0 +1,49 @@
+{
+  "relationOverlap": 2,
+  "entityOverlap": 3,
+  "ids": [
+    "e1s1f1",
+    "e1s2f1",
+    "e1s3f1",
+    "e2s1f1",
+    "e3s1f1",
+    "e4s1f1",
+    "e5s1f2"
+  ],
+  "entityNames": {
+    "e1s1f1": "方位",
+    "e1s2f1": "解剖结构",
+    "e1s3f1": "临床表现",
+    "e2s1f1": "否定",
+    "e3s1f1": "变化趋势",
+    "e4s1f1": "临床表现",
+    "e5s1f2": "否定"
+  },
+  "entities": {
+    "e1s1f1": "右",
+    "e1s2f1": "右耳",
+    "e1s3f1": "右耳溢液",
+    "e2s1f1": "无",
+    "e3s1f1": "好转",
+    "e4s1f1": "血样分泌物",
+    "e5s1f2": "无"
+  },
+  "relations": [
+    {
+      "relationName": "病情",
+      "relatedEntities": [
+        "e3s1f1",
+        "e2s1f1"
+      ]
+    },
+    {
+      "relationName": "判断",
+      "relatedEntities": [
+        "e3s1f1",
+        "e1s3f1"
+      ]
+    }
+  ],
+  "html": "治疗后，<span id='e1s3f1'><span id='e1s2f1'><span id='e1s1f1'>右</span>耳</span>溢液</span><span id='e2s1f1'>无</span>明显<span id='e3s1f1'>好转</span>且伴<span id='e4s1f1'>血样分泌物</span>，<span id='e5s1f2'>无</span>",
+  "text": "治疗后，右耳溢液无明显好转且伴血样分泌物，无"
+}

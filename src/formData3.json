@@ -1,0 +1,82 @@
+{
+  "text": "治疗后，右耳溢液无明显好转且伴血样分泌物，无明显痛感",
+  "entities": [
+    {
+      "e": 1,
+      "entities": [
+        {
+          "s": 1,
+          "f": 1,
+          "text": "右",
+          "label": "方位"
+        },
+        {
+          "s": 2,
+          "f": 1,
+          "text": "右耳",
+          "label": "解剖结构"
+        },
+        {
+          "s": 3,
+          "f": 1,
+          "text": "右耳溢液",
+          "label": "临床表现"
+        }
+      ]
+    },
+    {
+      "e": 2,
+      "entities": [
+        {
+          "s": 1,
+          "f": 1,
+          "text": "无",
+          "label": "否定"
+        }
+      ]
+    },
+    {
+      "e": 3,
+      "entities": [
+        {
+          "s": 1,
+          "f": 1,
+          "text": "好转",
+          "label": "变化趋势"
+        }
+      ]
+    },
+    {
+      "e": 4,
+      "entities": [
+        {
+          "s": 1,
+          "f": 1,
+          "text": "血样分泌物",
+          "label": "临床表现"
+        }
+      ]
+    },
+    {
+      "e": 5,
+      "entities": [
+        {
+          "s": 1,
+          "f": 2,
+          "text": "无",
+          "label": "否定"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "relationName": "判断",
+      "relatedEntities": ["e3s1f1", "e1s3f1"]
+    },
+    {
+      "relationName": "病情",
+      "relatedEntities": ["e3s1f1", "e2s1f1"]
+    }
+  ]
+}
