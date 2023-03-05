@@ -20,7 +20,7 @@ const result = ref<Element>();
 const tourOptions = [
 	{
 		target: intro,
-		content: 'Yelo Anotation 是 NLP 文本标注工具，支持后端数据渲染和在线标注两种模式',
+		content: 'Yelo Annotation 是 NLP 文本标注工具，支持后端数据渲染和在线标注两种模式',
 		position: ['bottom', 'right'],
 	},
 	{
