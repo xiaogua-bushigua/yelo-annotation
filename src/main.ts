@@ -8,6 +8,7 @@ import "vue3-colorpicker/style.css";
 import 'highlight.js/styles/base16/edge-light.css'
 import 'highlight.js/lib/common'
 import hljsVuePlugin from '@highlightjs/vue-plugin'
+// @ts-ignore
 import yeloUI from "yelo-ui";
 import 'yelo-ui/dist/style.css';
 
