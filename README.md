@@ -1,4 +1,4 @@
-# yelo - annotation 🚀
+# Yelo - Annotation 🚀
 
 ![alt text](image.png)
 
