@@ -89,7 +89,7 @@ onMounted(() => {
 	<header>
 		<div style="display: flex; align-items: center; margin-left: 24px" ref="intro">
 			<img src="../src/assets/logo.png" alt="" srcset="" />
-			<span>yelo - annotation</span>
+			<span>Yelo - Annotation</span>
 		</div>
 		<div class="btns">
 			<span @click="handleClickForm" ref="dataForm" id="dataForm">数据格式</span>

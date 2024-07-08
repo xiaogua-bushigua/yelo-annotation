@@ -1,6 +1,6 @@
 # yelo - annotation 🚀
 
-
+![alt text](image.png)
 
 ## 🧩 项目介绍
 
@@ -9,8 +9,6 @@
 🔌本项目的初衷是前端项目练习，并为国内 NLP 工具的创造尽一些力。不管是想要学习前端标注技术的同学，还是想应用本工具的同学，希望能帮助到你。
 
 🛠技术栈为：`vue3+ts+pinia+yelo-ui`；其中标注技术采用 svg 渲染；[yelo-ui](https://www.npmjs.com/package/yelo-ui) 提供了支持 “新手引导” 功能的组件支持。
-
-在线使用：http://175.24.176.28:8003/
 
 
 
